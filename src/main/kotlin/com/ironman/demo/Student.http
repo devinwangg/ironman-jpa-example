@@ -1,0 +1,14 @@
+### 取得所有學生資料 API
+GET http://localhost:8080/api/students
+
+### 新增學生資料 API
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "name": "Devin",
+  "email": "test@gmail.com"
+}
+
+###
+

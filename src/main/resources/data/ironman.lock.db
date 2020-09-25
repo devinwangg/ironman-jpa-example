@@ -1,0 +1,6 @@
+#FileLock
+#Fri Sep 25 22:43:29 PST 2020
+hostName=192.168.2.102
+id=174c5b8115f17fa9856900b8666c16494dddd45faca
+method=file
+server=192.168.2.102\:53569
