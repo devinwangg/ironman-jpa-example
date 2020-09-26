@@ -33,4 +33,12 @@ class StudentController(@Autowired val studentDao: StudentDao) {
     fun addStudentData(@RequestBody student: Student): Student {
         return studentDao.save(student)
     }
+
+    /**
+     * 利用姓名查詢學生資料
+     */
+    @PostMapping("/students/search")
+    fun getStudentByName(@RequestParam name: String): Student? {
+        return studentDao.findByName(name)
+    }
 }

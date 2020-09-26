@@ -10,5 +10,7 @@ Content-Type: application/json
   "email": "test@gmail.com"
 }
 
-###
+### 利用姓名參數查詢學生資料
+POST http://localhost:8080/api/students/search?name=Devin
+Content-Type: application/json
 
